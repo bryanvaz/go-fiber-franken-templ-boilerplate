@@ -4,7 +4,7 @@ tmp_dir = "tmp"
 
 [build]
 # pre_cmd = ["go run github.com/a-h/templ/cmd/templ generate"]
-cmd = "go run github.com/a-h/templ/cmd/templ generate && go build -o ./dist/dev/server ./main.go"
+cmd = "go run github.com/a-h/templ/cmd/templ generate && go build -o ./dist/dev/server ./pkg/cmd/main.go"
 args_bin = []
 bin = "./dist/dev/server"
 # full_bin = "./tmp/dist/server"
