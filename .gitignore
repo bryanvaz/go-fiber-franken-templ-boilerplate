@@ -1,0 +1,10 @@
+# Custom
+/dist
+/tmp
+/*.env
+
+# JS
+node_modules/
+dist/
+
+.DS_Store

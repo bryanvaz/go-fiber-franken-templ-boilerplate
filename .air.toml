@@ -1,0 +1,49 @@
+root = "."
+testdata_dir = "testdata"
+tmp_dir = "tmp"
+
+[build]
+# pre_cmd = ["go run github.com/a-h/templ/cmd/templ generate"]
+cmd = "go run github.com/a-h/templ/cmd/templ generate && go build -o ./dist/dev/server ./main.go"
+args_bin = []
+bin = "./dist/dev/server"
+# full_bin = "./tmp/dist/server"
+delay = 1000
+exclude_dir = ["assets", "tmp", "vendor", "testdata", "node_modules", "dist", "docker"]
+exclude_file = []
+exclude_regex = ["_test.go", ".*_templ.go"]
+exclude_unchanged = false
+follow_symlink = false
+include_dir = []
+include_ext = ["go", "tpl", "tmpl", "templ", "html", "js", "cjs", "mjs", "css", "scss"]
+include_file = []
+kill_delay = "0s"
+log = "build-errors.log"
+poll = false
+poll_interval = 0
+post_cmd = []
+pre_cmd = []
+rerun = false
+rerun_delay = 500
+send_interrupt = false
+stop_on_error = true
+
+[color]
+app = ""
+build = "yellow"
+main = "magenta"
+runner = "green"
+watcher = "cyan"
+
+[log]
+main_only = false
+time = false
+
+[misc]
+clean_on_exit = false
+
+[screen]
+clear_on_rebuild = false
+keep_scroll = true
+
+
