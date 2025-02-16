@@ -1,5 +1,9 @@
 # Boilerplate template for Franken UI with Golang Fiber, Templ, and Vite
 
+Starting point for incorporating [Franken UI](https://github.com/franken-ui/ui)
+with a Golang web stack based on [Fiber](https://github.com/gofiber/fiber)
+and [Templ](https://github.com/a-h/templ) and [Vite](https://github.com/vitejs/vite) for bundling.
+
 ## Getting Started
 
 ### Prerequisites
@@ -41,3 +45,4 @@ make
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
