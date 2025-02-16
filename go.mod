@@ -1,6 +1,6 @@
-module github.com/bryanvaz/go-fiber-franken-boilerplate
+module github.com/bryanvaz/go-fiber-franken-templ-boilerplate
 
-go 1.23.2
+go 1.23
 
 require (
 	github.com/a-h/templ v0.3.833

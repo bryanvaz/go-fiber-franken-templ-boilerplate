@@ -1,0 +1,22 @@
+root = true
+
+# Default settings (4 space indent for everything)
+[*]
+indent_style = space
+indent_size = 4
+
+# JavaScript files (2 space indent)
+[*.js, *.scss, *.css]
+indent_style = space
+indent_size = 2
+
+# Go files (4 space indent)
+[*.go, *.templ]
+indent_style = space
+indent_size = 4
+
+[Makefile]
+indent_style = tab
+indent_size = 4
+
+
