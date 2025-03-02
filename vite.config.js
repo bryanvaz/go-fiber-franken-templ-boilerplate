@@ -1,10 +1,12 @@
 
 import { defineConfig } from 'vite'
 import path from 'path'
-import { viteStaticCopy } from 'vite-plugin-static-copy'
 
-export default defineConfig(({ mode }) => {
+export default defineConfig(async ({ mode }) => {
   const isProduction = mode === 'production'
+
+  const { viteStaticCopy } = await import('vite-plugin-static-copy');
+
   return {
     plugins: [
       viteStaticCopy({
