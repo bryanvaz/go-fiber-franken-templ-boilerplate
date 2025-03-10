@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev:build": "vite build ---mode development",
-    "watch": "vite build ---mode development --watch",
+    "dev:build": "vite build --mode development",
+    "watch": "vite build --mode development --watch",
     "build": "vite build --mode production"
   },
   "devDependencies": {
